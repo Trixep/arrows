@@ -10,7 +10,7 @@ body{
 
 .display{
     margin-top: 30vh;
-    padding: 20px;
+    padding: 50px;
     border: 2px solid pink;
 }
 
@@ -21,9 +21,11 @@ body{
     gap: 10px 10px;
 }
 .vezerlo-gomb{
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
 }
 
 .v1{
@@ -36,11 +38,13 @@ body{
 }
 
 .start, .stop{
-    width: 60px;
-    height: 25px;
-    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
     border: none;
     color: white;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .start{
@@ -51,3 +55,12 @@ body{
     background-color: red;
 }
 
+.start:hover{
+    background-color: darkgreen;
+    transition-duration: 200ms;
+}
+
+.stop:hover{
+    background-color: darkred;
+    transition-duration: 200ms;
+}
